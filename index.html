@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shagun Page 💛</title>
+<style>
+  body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(180deg, #ffe7c7, #fff3e6);
+    text-align: center;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+    color: #5a2d0c;
+    margin-top: 10px;
+  }
+
+  .qr-box {
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px auto;
+    width: 260px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+
+  .qr-box img {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .amount {
+    font-size: 18px;
+    color: #ff7a00;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+
+  button {
+    margin-top: 15px;
+    background: #ff9f1c;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .hidden-text {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #6b3b1f;
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<h1>Ayesa kya… shagun diye bina chale jaoge? 🙈</h1>
+
+<div class="qr-box">
+  <!-- Replace this image with your QR image -->
+  <img src="qr.png.jpeg" alt="QR Code">
+</div>
+
+<div class="amount">₹201 rupaye ka shagun dalte jao 💸</div>
+
+<button onclick="showJoke()">Shagun pay kiya na? 😂</button>
+
+<div class="hidden-text" id="jokeText">
+  Just jokinggggg 🤭💛
+</div>
+
+<script>
+function showJoke() {
+  document.getElementById("jokeText").style.display = "block";
+}
+</script>
+
+</body>
+</html>
